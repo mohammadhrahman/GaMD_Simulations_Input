@@ -1,0 +1,21 @@
+repeat gamd production simulations 
+&cntrl
+ imin	= 0,
+ irest  = 0,
+ ntx    = 5,
+ ntc=2, ntf=2,
+ cut    = 10.0,
+ ntb=1, ntp=0,
+ temp0  = 300.0,
+ ntt    = 3,
+gamma_ln = 2.0,
+nstlim   = 25000000, dt = 0.002,
+ntpr = 500, ntwx = 500, ntwr = 5000,
+ntwprt = 3454,
+ig =-1, ioutfm=1, iwrap=1,
+
+igamd = 3, iE = 1, irest_gamd = 1,
+ntcmd = 0, nteb = 0, ntave = 200000,
+ntcmdprep = 0, ntebprep = 0,
+sigma0P = 6.0, sigma0D = 6.0,
+&end
